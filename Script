@@ -1,7 +1,7 @@
 local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/sol"))()
 
 local win = SolarisLib:New({
-  Name = "Blox Fruits Hub Archive",
+  Name = "Blox Fruit Hub Archive",
   FolderToSave = "SolarisLibStuff"
 })
 
