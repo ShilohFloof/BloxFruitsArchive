@@ -12,7 +12,7 @@ local sec = tab:Section("Working Hubs")
 local sec2 = tab2:Section("Working Hubs")
 
 --No Key Hubs
-sec:Button("Makima",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Piwwy0909/MakimaRemake/main/Cumback.Makima'))()
+sec:Button("Makima Hub",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Piwwy0909/MakimaRemake/main/Cumback.Makima'))()
   SolarisLib:Notification("Script Loaded!", "Makima Hub has been loaded.")
 end)
 
