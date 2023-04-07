@@ -1,0 +1,78 @@
+local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/sol"))()
+
+local win = SolarisLib:New({
+  Name = "Blox Fruits Hub Archive",
+  FolderToSave = "SolarisLibStuff"
+})
+
+
+local tab = win:Tab("No Key Hubs")
+local tab2 = win:Tab("Key Required Hubs")
+local sec = tab:Section("Working Hubs")
+local sec2 = tab2:Section("Working Hubs")
+
+--No Key Hubs
+sec:Button("Makima",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Piwwy0909/MakimaRemake/main/Cumback.Makima'))()
+  SolarisLib:Notification("Script Loaded!", "Makima Hub has been loaded.")
+end)
+
+sec:Button("Uranium Hub",function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+  SolarisLib:Notification("Script Loaded!", "Uranium Hub has been loaded.")
+end)
+
+sec:Button("Mukuro Hub",function() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua'))()
+  SolarisLib:Notification("Script Loaded!", "Mukuro Hub has been loaded.")
+end)
+
+sec:Button("Mango Hub",function() 
+    loadstring(game:HttpGet('https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta'))()
+  SolarisLib:Notification("Script Loaded!", "Mango Hub has been loaded.")
+end)
+
+sec:Button("Tawan Hub",function() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/kill55547/TAWAN_HUB/main/hub.lua.txt'))()
+  SolarisLib:Notification("Script Loaded!", "Tawan Hub has been loaded.")
+end)
+
+sec:Button("Tuper Hub",function() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TUPERX/TUPERX/Main/MenuBF/README.md'))()
+  SolarisLib:Notification("Script Loaded!", "Tuper Hub has been loaded.")
+end)
+
+sec:Button("BlazeX Hub",function() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/WindowsXp12/BlxzeRBLX/main/BLxzeHub.lua'))()
+  SolarisLib:Notification("Script Loaded!", "BlazeX Hub has been loaded.")
+end)
+
+sec:Button("East Hub",function() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Brineeee/EastHub/main/lua'))()
+  SolarisLib:Notification("Script Loaded!", "East Hub has been loaded.")
+end)
+
+sec:Button("Chiba Hub",function() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/ChibaHuB/main/Chiba-BF.txt'))()
+  SolarisLib:Notification("Script Loaded!", "Chiba Hub has been loaded.")
+end)
+
+--Key Required Hubs
+sec2:Button("Void Hub",function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script"))()
+  SolarisLib:Notification("Hub Loaded!", "Void Hub has been loaded.")
+end)
+
+sec2:Button("Neva Hub",function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"))()
+  SolarisLib:Notification("Hub Loaded!", "Neva Hub has been loaded.")
+end)
+
+sec2:Button("Hoho Hub",function() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  SolarisLib:Notification("Hub Loaded!", "Hoho Hub has been loaded.")
+end)
+
+sec2:Button("Zen Hub",function() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader'))()
+  SolarisLib:Notification("Hub Loaded!", "Zen Hub has been loaded.")
+end)
